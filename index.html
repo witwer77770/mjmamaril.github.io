@@ -4,81 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mark Jayson</title>
-  
-  <style>
-    a {
-        text-decoration: none;
-        color: black;
-    }
-    .flex-container {
-      display: flex;
-      align-items: 200px;
-      background-color: #f1f1f100;
-    }
-
-    .flex-container > div {
-      background-color: transparent;
-      color: black;
-      width: 100px;
-      margin: 10px;
-      font-size: 30px;
-    }
-
-    .hero-banner {
-      flex: 7;
-      background-color: #333; 
-      background-image: url('/images/yellow-bg.png'); 
-      background-size: cover;
-      background-position: left;
-      color: white;
-      text-align: right;
-      padding: 20px; 
-    }
-
-    .hero-banner-text {
-      max-width: 50%; 
-    }
-
-    .box-1 {
-        flex: 5; 
-        padding: 50px;
-    }
-    .navigation{
-        position: fixed;
-        top: 0; 
-        width: 100%;
-        padding: 15px 20px;
-}
-    .hero{
-        margin-top: -30px;
-    }
-  </style>
+  <link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="body">
 
 <!-- Navigation section -->
 <section class="navigation">
-    <div class="flex-container ">
+    <div class="flex-container">
         <a href="" style="flex-grow: 8">Mark Jayson</a>
         <a href="" style="flex-grow: 1">About</a>
         <a href="" style="flex-grow: 1">Projects</a>
         <a href="" style="flex-grow: 1">Contacts</a>
     </div>
 </section>
+
 <!-- Flexbox -->
 <section class="flex-container hero">
+
 <!-- Box 1 -->
   <div class="box-1">
-    <h5>UI/UX DESIGNER</h5>
-    <h1>Hello, my name is Mark Jayson Mamaril</h1>
-    <h5>Short text about me kljhfiuehn cksjxfs osdujhfisjdhf  sojdfksjdhfikuje kj df dfwsers.</h5>
+    <h5 class="yellow-text">UI/UX DESIGNER</h5>
+    <h1 class="bigger-header">Hello, my name is Mark Mamaril</h1>
+    <h5 class="aspiring">Aspiring web developer passionate about crafting engaging digital experiences. Let's build something awesome!</h5>
+
+<!-- Buttons -->    
+    <button class="primary-button">Projects</button>
+    <button class="secondary-button">Linkedin</button>
   </div>
 
 <!-- Box 2 with hero banner -->
-    <div class="hero-banner">
-      <div class="hero-banner-text">
-      </div>
-  </div>
+    <div class="hero-banner"></div>  
 </section>
 
 </body>

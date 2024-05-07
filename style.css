@@ -1,0 +1,71 @@
+.bigger-header {
+      font-size: 2.5em;
+      color: rgb(14, 13, 13);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+.aspiring {
+      color: darkgray;
+      text-shadow: 2px 2px 4px rgba(48, 48, 48, 0.5);
+    }
+.yellow-text {
+      color: #FDC435;
+    }
+a {
+        text-decoration: none;
+        color: black;
+    }
+.flex-container {
+      display: flex;
+      align-items: 200px;
+      background-color: #f1f1f100;
+    }
+.flex-container > div {
+      background-color: transparent;
+      color: black;
+      width: 100px;
+      margin: 0px;
+      font-size: 30px;
+    }
+.hero-banner {
+      flex: 7;
+      background-color: #333; 
+      background-image: url('/images/yellow-reused.png'); 
+      background-size: cover;
+      background-position: left;
+      color: white;
+      text-align: right;
+      padding: 20px; 
+      position: relative;
+    }
+.hero-banner-text {
+      max-width: 50%; 
+    }
+.box-1 {
+        flex: 5; 
+        padding: 160px 50px;
+    }
+.navigation{
+        position: fixed;
+        top: 0; 
+        width: 100%;
+        padding: 15px 62px;
+        z-index: 999;
+    }
+.hero{
+        margin-top: -30px;
+    }
+.primary-button{
+      padding: 10px 30px;
+      background-color: #FDC435;
+      border: 1px solid #FDC435;
+      border-radius: 5px;
+    }
+.secondary-button{
+      padding: 10px 30px;
+      background-color: beige;
+      border: 1px solid #000000;
+      border-radius: 5px; 
+    }
+.body{
+      margin: 0px;
+    }
