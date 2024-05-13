@@ -1,71 +1,160 @@
-.bigger-header {
-      font-size: 2.5em;
-      color: rgb(14, 13, 13);
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-.aspiring {
-      color: darkgray;
-      text-shadow: 2px 2px 4px rgba(48, 48, 48, 0.5);
-    }
-.yellow-text {
-      color: #FDC435;
-    }
-a {
-        text-decoration: none;
-        color: black;
-    }
-.flex-container {
-      display: flex;
-      align-items: 200px;
-      background-color: #f1f1f100;
-    }
-.flex-container > div {
-      background-color: transparent;
-      color: black;
-      width: 100px;
-      margin: 0px;
-      font-size: 30px;
-    }
-.hero-banner {
-      flex: 7;
-      background-color: #333; 
-      background-image: url('/images/yellow-reused.png'); 
-      background-size: cover;
-      background-position: left;
-      color: white;
-      text-align: right;
-      padding: 20px; 
-      position: relative;
-    }
-.hero-banner-text {
-      max-width: 50%; 
-    }
-.box-1 {
-        flex: 5; 
-        padding: 160px 50px;
-    }
 .navigation{
-        position: fixed;
-        top: 0; 
-        width: 100%;
-        padding: 15px 62px;
-        z-index: 999;
-    }
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  padding: 15px 62px;
+  z-index: 999;
+}
+
+.bigger-header{
+  font-size: 2.5em;
+  color: rgb(14, 13, 13);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.aspiring{
+  color: darkgray;
+  text-shadow: 2px 2px 4px rgba(48, 48, 48, 0.5);
+}
+
+.yellow-text{
+  color: #FDC435;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex-container{
+  display: flex;
+  align-items: 200px;
+  background-color: #f1f1f100;
+}
+
+.flex-container > div{
+  background-color: transparent;
+  color: black;
+  width: 100px;
+  margin: 0px;
+  font-size: 30px;
+}
+
+.hero-banner{
+  flex: 7;
+  background-color: #333; 
+  background-image: url('/images/yellow-reused.png'); 
+  background-size: cover;
+  background-position: left;
+  color: white;
+  text-align: right;
+  padding: 20px; 
+  position: relative;
+}
+
+.hero-banner-text{
+  max-width: 50%; 
+}
+
+.box-1{
+  flex: 5; 
+  padding: 160px 50px;
+}
+
 .hero{
-        margin-top: -30px;
-    }
+  margin-top: -30px;
+}
+
 .primary-button{
-      padding: 10px 30px;
-      background-color: #FDC435;
-      border: 1px solid #FDC435;
-      border-radius: 5px;
-    }
+  padding: 10px 30px;
+  background-color: #FDC435;
+  border: 1px solid #FDC435;
+  border-radius: 5px;
+}
+
 .secondary-button{
-      padding: 10px 30px;
-      background-color: beige;
-      border: 1px solid #000000;
-      border-radius: 5px; 
-    }
+  padding: 10px 30px;
+  background-color: beige;
+  border: 1px solid #000000;
+  border-radius: 5px; 
+}
+
 .body{
       margin: 0px;
-    }
+}
+
+
+/* 2nd page */
+
+.bigger-header1 {
+  font-size: 2.5em;
+  color: rgb(14, 13, 13);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 50px;
+}
+
+body {
+  background-color: #F9FAFF;
+} 
+
+h2 {
+  font-size: 2em;
+}
+h3 { 
+  font-weight: normal;
+}
+.container {
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 80px;
+  border-radius: 30px;
+}
+
+.new-box-1 {
+  flex: 6;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 100px;
+  align-content: center;
+  background-color: #fff;
+  
+}
+
+.new-box-2 {
+  flex: 9;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.bordered {
+  padding: 20px 30px;
+  border-radius: 40px;
+  border: 1px solid #000;
+  background-color: white;
+  cursor: pointer;
+}
+
+.bordered:hover {
+  background-color: #FDC435;
+}
+
+.left-image .new-box-2 {  
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.left-image .new-box-1 {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
