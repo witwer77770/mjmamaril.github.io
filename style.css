@@ -158,3 +158,27 @@ h3 {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
+
+.image-container {
+  display: flex;
+  width: 100px;
+  margin: 20px 725px;
+  justify-content: center;
+  gap: 20px;
+}
+.image-container a {
+  text-decoration: none;
+  width: calc(50% - 10px);
+}
+.image-container img {
+  width: 50px;
+  height: auto;
+  display: block;
+}
+.Mark{
+  width: 150px;
+  margin: 20px 710px;
+  justify-content: center;
+  color: rgb(14, 13, 13);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
